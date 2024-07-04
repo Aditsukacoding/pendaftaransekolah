@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Quicksand:wght@500;600;700&display=swap');
+h2 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+p {
+    color: white;
+}
+body {
+    background-image: url(wallpaper1.jpg);
+}
+.login-submit .input-box {
+
+    transition: 0.3s;
+}
+.input-box:focus {
+    transform: scale(105%);
+    cursor: pointer;
+}
+.input-submit{
+    position: relative;
+}
+.submit-btn{
+    width: 100%;
+    height: 60px;
+    background: #2d2ddc;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.input-submit label{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: #fff7f7;
+    -webkitanimation: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background: #1212d1;
+    transform: scale(1.05,1);
+}
+    
+    
